@@ -1,0 +1,19 @@
+/* src/components/BlogPost.css */
+.blog-post {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.post-title {
+    margin-top: 0;
+}
+
+.post-image {
+    max-width: 600px; /* Medium size */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
