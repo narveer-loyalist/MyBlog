@@ -20,8 +20,9 @@ const TopBar = () => {
             <nav className="nav-links">
                 <button onClick= {toggleTheme} >{dark ? "Theme - Dark" : "Theme - Light"}</button> 
                 <a href="/">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="/">About</a>
+                <a href="/">Contact</a>
+                <a href="/">Narveer</a>
             </nav>
         </header>
     );
