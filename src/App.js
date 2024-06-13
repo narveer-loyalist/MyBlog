@@ -40,8 +40,8 @@ const App = () => {
 
     return (
         <div className="container">
-            <TopBar /> 
-            <div className="blog-posts">
+            <TopBar />
+            <main className="blog-posts">
                 {blogPosts.map((post, index) => (
                     <BlogPost 
                         key={index}
@@ -52,10 +52,7 @@ const App = () => {
                         body={post.body}
                     />
                 ))}
-            </div>
-
-            
-            
+            </main>
         </div>
     );
 };
