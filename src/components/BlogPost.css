@@ -1,7 +1,10 @@
 /* src/components/BlogPost.css */
 .blog-post {
+    flex: 1 0 calc(50% - 16px);
+    box-sizing: border-box;
     background-color: #f4f4f4;
     padding: 20px;
+    border: 1px solid #000;
     margin-bottom: 20px;
     border-radius: 8px;
 }

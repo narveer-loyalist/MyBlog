@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #1f1d1d;
+    background-color: #9e9b9b;
     color: white;
     padding: 10px 20px;
 }
@@ -13,10 +13,9 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #9e9b9b;
+    background-color: #1f1d1d;
     color: white;
     padding: 10px 20px;
-
 }
 
 .logo {
